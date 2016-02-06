@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "List of penetration testing tools.",
   "main": "app.js",
+  "private": true,
   "scripts": {
   },
   "repository": {
@@ -14,7 +15,7 @@
     "Testing",
     "Tools"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "protractor": "^2.1.0",
