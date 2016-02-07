@@ -1,7 +1,11 @@
 'use strict';
 
+angular.module('toolsApp', [
+        'ngRoute'
+    ])
 
-angular.module('penToolsApp', [])
-    .config(function appConfig() {
-
-    });
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.otherwise({
+            redirectTo: '/tools'
+        });
+    }]);

@@ -1,7 +1,15 @@
-angular.module('penToolsApp.tools', [])
-    .config(function config() {
+'use strict';
 
-    })
-    .controller(function ToolsCtrl() {
+angular.module('toolsApp.tools', [
+        'ngRoute'
+    ])
 
-    });
+    .config(['$routeProvider', function ($routeProvider) {
+        $routeProvider.when('/tools', {
+            templateUrl: 'tools/tools.tpl.html',
+            controller: 'ToolsCtrl'
+        });
+    }])
+
+    .controller(['ToolsCtrl', function () {
+    }]);

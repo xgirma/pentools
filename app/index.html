@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="penToolsApp">
+<html lang="en" ng-app="toolsApp">
 <head>
     <meta charset="UTF-8">
     <title>PenTools</title>
 
+    <link rel="stylesheet" href="app.css">
+
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <script src="app.js"></script>
+    <script src="tools/tools.js"></script>
+    <script src="resources/resources.js"></script>
 </head>
+
+<body>
+    <ul class="menu">
+        <li><a href="#/tools">Tools</a></li>
+        <li><a href="#/resources">Resources</a></li>
+    </ul>
 
 </body>
 </html>
