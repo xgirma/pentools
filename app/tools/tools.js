@@ -1,15 +1,19 @@
-'use strict';
+(function () {
+    'use strict';
 
-angular.module('toolsApp.tools', [
-        'ngRoute'
-    ])
+    angular
+        .module('toolsApp.tools', [
+            'ngRoute'
+        ])
 
-    .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/tools', {
-            templateUrl: 'tools/tools.tpl.html',
-            controller: 'ToolsCtrl'
-        });
-    }])
+        .config(['$routeProvider', function ($routeProvider) {
+            $routeProvider.when('/tools', {
+                templateUrl: 'tools/tools.tpl.html',
+                controller: 'ToolsCtrl'
+            });
+        }])
 
-    .controller(['ToolsCtrl', function () {
-    }]);
+        .controller('ToolsCtrl', ToolsCtrl);
+
+    function ToolsCtrl () {}
+})();
