@@ -2,9 +2,7 @@
 List of penetration testing tools. 
 
     npm install
-    
     npm run start
-    
     [http:127.0.0.1:8000]
     
 
