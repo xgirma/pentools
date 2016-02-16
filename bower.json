@@ -7,7 +7,8 @@
   "private": true,
   "dependencies": {
     "angular": "1.4.x",
-    "angular-route": "1.4.x"
+    "angular-route": "1.4.x",
+    "angular-bootstrap": "^1.1.2"
   },
   "authors": [
     "Girma Nigusse <xgirma@gmail.com>"
