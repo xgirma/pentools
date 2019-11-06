@@ -23,7 +23,7 @@
   "devDependencies": {
     "bower": "1.8.8",
     "http-server": "0.8.5",
-    "jasmine-core": "2.99.1",
+    "jasmine-core": "3.5.0",
     "jasmine-spec-reporter": "2.7.0",
     "karma": "0.13.22",
     "karma-chrome-launcher": "0.2.3",
