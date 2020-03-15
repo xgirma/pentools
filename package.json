@@ -34,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/xgirma/pentools/issues"
   },
-  "homepage": "https://github.com/xgirma/pentools#readme"
+  "homepage": "https://github.com/xgirma/pentools#readme",
+  "dependencies": {}
 }
